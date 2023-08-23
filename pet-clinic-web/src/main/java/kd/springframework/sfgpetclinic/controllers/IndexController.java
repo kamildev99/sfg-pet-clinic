@@ -10,7 +10,8 @@ public class IndexController {
 
     //search for file template index
     //list of parameters
-    @RequestMapping({"", "/", "index","index.html"})
+
+    @RequestMapping({"", "/", "index", "index.html"})
     public String index(){
 
         return "index";
