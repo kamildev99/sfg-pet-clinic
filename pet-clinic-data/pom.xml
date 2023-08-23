@@ -9,8 +9,6 @@
 
 
     <artifactId>pet-clinic-data</artifactId>
-    <name>Archetype - pet-clinic-data</name>
-    <url>http://maven.apache.org</url>
 
 
     <dependencies>

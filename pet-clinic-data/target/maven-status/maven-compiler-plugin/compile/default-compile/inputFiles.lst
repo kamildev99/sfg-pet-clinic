@@ -1,5 +1,14 @@
-F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\model\Person.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\model\BaseEntity.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\CrudService.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\PetService.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\map\VetServiceMap.java
 F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\model\Pet.java
 F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\model\Owner.java
 F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\model\Vet.java
 F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\model\PetType.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\VetService.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\OwnerService.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\map\OwnerServiceMap.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\model\Person.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\map\PetServiceMap.java
+F:\Spirng_Projects\sfg-pet-clinic\pet-clinic-data\src\main\java\kd\springframework\sfgpetclinic\services\map\AbstractMapService.java
