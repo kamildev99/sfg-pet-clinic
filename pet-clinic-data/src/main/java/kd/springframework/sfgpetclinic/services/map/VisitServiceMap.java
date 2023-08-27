@@ -4,9 +4,11 @@ import kd.springframework.sfgpetclinic.model.Owner;
 import kd.springframework.sfgpetclinic.model.Visit;
 import kd.springframework.sfgpetclinic.services.OwnerService;
 import kd.springframework.sfgpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService {
     @Override
     public Set<Visit> findAll() {
@@ -37,7 +39,7 @@ public class VisitServiceMap extends AbstractMapService<Visit, Long> implements 
     }
 
     @Override
-    public void deleteById(Visit id) {
+    public void deleteById(Long id) {
         super.deleteById(id);
     }
 }
