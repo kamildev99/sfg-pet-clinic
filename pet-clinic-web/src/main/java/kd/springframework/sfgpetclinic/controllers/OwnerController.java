@@ -48,7 +48,7 @@ public class OwnerController {
             owner.setLastName("");
         }
 
-        List<Owner> results = this.ownerService.findAllByLastNameLike(owner.getLastName());
+        List<Owner> results = this.ownerService.findAllByLastNameLike("%" + owner.getLastName() + "%");
 
         if(results.isEmpty()){
             result.rejectValue("lastName", "not found", "not found");
@@ -60,7 +60,7 @@ public class OwnerController {
             return "owners/ownersList";
         }
 
-        return "owners/ownersList";
+        return "redirect:/owners/find";
     }
 
     @GetMapping("/{ownerId}")
