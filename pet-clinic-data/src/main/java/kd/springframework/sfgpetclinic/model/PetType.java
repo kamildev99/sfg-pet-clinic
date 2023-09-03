@@ -3,16 +3,23 @@ package kd.springframework.sfgpetclinic.model;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
+import kd.springframework.sfgpetclinic.services.springdatajpa.PetTypeSDJpaService;
 import lombok.*;
 
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 @Table(name="types")
 public class PetType extends BaseEntity{
+
+
+    @Builder
+    public PetType(Long id, String name){
+        super(id);
+        this.name = name;
+    }
 
     @Column(name="name")
     private String name;
